@@ -33,13 +33,30 @@ html {
 .banner-content {
   position: absolute;
   overflow: hidden;
-  bottom: -8px;
+  bottom: -6px;
   color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
 
+  .banner {
+    max-height: 440px;
+  }
+
+  .banner-content {
+    left: 100px;
+    bottom: -60px;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    max-height: 500px;
+  }
+
   .banner-content {
     left: 300px;
+    bottom: -50px;
   }
 }
